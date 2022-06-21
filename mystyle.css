@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+*{
+  font-family: 'PT Sans', sans-serif;
+  font-size: 105%;
+}
+
+body {
+    background-image: url(images/bg.png);
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+  #imageheader{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: auto;
+  }
+
+  #button, #wallet, #example{
+    margin: auto;
+    max-width: 500px;
+    color: white;
+  }
+
+  #wallet{
+    color: white;
+  }
+
+  #button{
+    color: black;
+    
+  }
