@@ -10,19 +10,30 @@
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 </head>
 <body>
-<div>
-    <img src="images/logo-blob.png" alt="GolemTown Logo" id="imageheader">
-</div>
-<div id="wallet">
-    <p>Wallet Connected: <span id='wallet-address'></span></p>
-</div>
-<div id="example">
-    <p>You will be minting an unrevealed NFT like shown below, after the mint tokens will be revealed and rarity will be determined</p>
-    <img src="images/example.gif" alt="Mint NFT">
-</div>
-<div id = "button">
-    <button id="mint">Mint an NFT</button>
-</div>  
+
+	<div>
+		<img src="images/logo-blob.png" alt="GolemTown Logo" id="imageheader">
+	</div>
+	<div class="conatiner">
+		<main class="grid">
+			<article>
+				<img src="images/example.gif">
+				<div class="text">
+			   		<button id="mint">Mint your NFT</button>
+			   	</div>
+				<div class="text">
+					<a href="https://nftrade.com/assets/avalanche/0xc3a9b1e8574cd43ce2067ea2a1b6d8d38b83a330" target="_blank">
+						<button id="mint">Buy your NFT on NFTrade</button>
+					</a>
+				</div><div class="text">
+					<a href="https://twitter.com/GolemTown" target="_blank">
+						<button id="mint">Follow us on Twitter</button>
+					</a>	
+				</div>
+			</article>
+		</main>
+	<p id="wallet">Wallet Connected: <span id='wallet-address'></span></p>
+	<p id="wallet">You will be minting an unrevealed NFT like shown below, after the mint tokens will be revealed and rarity will be determined</p>
 
     <script type="text/javascript">
         var account = null;
